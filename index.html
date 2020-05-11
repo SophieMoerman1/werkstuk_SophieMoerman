@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Werkstuk Sophie Moerman</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Fjalla+One|Orbitron|Tomorrow&amp;display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-storage.js"></script>
+</head>
+
+<body>
+
+    <section>
+        <img src="./1200px-Logo_Ghibli.svg.png" alt="studio ghibli">
+        <div>
+            <label for="search">
+                <input class="search" type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search by names.."
+                    title="Type in a name">
+            </label>
+
+        </div>
+    </section>
+    <ul id="movies">
+        <li>Loading movies...</li>
+    </ul>
+    <section class="reviews">
+        <form id="reviews" name="form">
+            <input type="text" name="input" id="input" placeholder="Give your opinion!">
+            <button type="submit" name="submit" id="submit">submit</button>
+        </form>
+        <div id="comments" class="comments">
+
+        </div>
+    </section>
+
+    <script type="module" src="./index.js"></script>
+</body>
+
+</html>
