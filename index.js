@@ -48,7 +48,8 @@ class Search {
                 h1[i].style.display = "none";
             }
         }
-        /*https://www.w3schools.com/howto/howto_js_filter_lists.asp*/
+        /*https://www.w3schools.com/howto/howto_js_filter_lists.asp
+        ik heb dit geprobeerd maar het bleef mislukken, dus de code staat er nog in maar het werkt niet*/
     }
 }
 const search = new Search();
