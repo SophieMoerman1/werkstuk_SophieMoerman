@@ -76,7 +76,7 @@ class Firebase {
     }
 }
 const firebaseInstance = new Firebase('AIzaSyCCFDd6qbVKq3pLltPvLtb1zB-ROTyBTVM', 'werkstuk-sophiemoerman', /*'gs://werkcollege-sophiemoerman.appspot.com'*/ );
-console.log(firebase);
+
 
 
 
